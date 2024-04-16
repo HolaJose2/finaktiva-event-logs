@@ -35,6 +35,8 @@ Para ejecutar el frontend, sigue estos pasos:
 
 De esta forma ya tendras la aplicacion ejecutandose, solo debes acceder a la URL que por defecto es http://localhost:5173/:
 
+En caso de que se ejecute en un puerto diferente, debes ir hasta el final de este documento y verás el paso a paso para poder ejecutar correctamente el proyecto.
+
 <br/>
 <br/>
 
