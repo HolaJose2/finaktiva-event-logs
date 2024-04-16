@@ -26,8 +26,6 @@ Para ejecutar el frontend, sigue estos pasos:
 De esta forma ya tendras la aplicacion ejecutandose, solo debes acceder a la URL que por defecto es http://localhost:5173/:
 
 
-
-
 <br/>
 <br/>
 
@@ -59,6 +57,8 @@ Para ejecutar el backend, sigue estos pasos:
 
 La aplicacion deberia ejecutarse y ya podrias probar la API desde swagger o POSTMAN http://localhost:5184/api/eventlogs.
 
+<br/>
+<br/>
 
 ## `Ajustes Adicionales`
 ### Puertos Diferentes:
