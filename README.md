@@ -2,7 +2,17 @@
 
 Este repositorio contiene el código para la aplicación de gestión de eventos "Logs" para Finaktiva.
 
-## `Frontend`
+## Tecnologías Utilizadas
+  - JavaScript (React)
+  - Fetch API para las llamadas a la API.
+  - C# (.NET Core)
+  - SQL Server
+    
+<br/>
+<br/>
+
+## Pasos para jecutar la aplicación.
+### `Frontend`
 ### Pre-Requisitos:
   - Tener NodeJS y npm instalado. (NodeJS trae npm por defecto)
   - Clonar el repositorio o descargar las carpetas como un ZIP.
@@ -28,8 +38,8 @@ De esta forma ya tendras la aplicacion ejecutandose, solo debes acceder a la URL
 <br/>
 <br/>
 
-## `Backend`
-## Pre-Requisitos
+### `Backend`
+### Pre-Requisitos
   - Tener instalado .NET Core SDK en tu sistema.
 
 ### Ejecución
