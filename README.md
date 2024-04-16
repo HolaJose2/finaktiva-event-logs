@@ -11,7 +11,7 @@ Este repositorio contiene el código para la aplicación de gestión de eventos 
 Para ejecutar el frontend, sigue estos pasos:
 
 
-1. Ve a la carpeta `frontend`:
+1. Ve a la carpeta `finaktiva-event-logs` que descargaste o clonaste, abre la terminal y ejecuta los siguientes comandos.:
    ```bash
    cd frontend
   
@@ -25,14 +25,12 @@ Para ejecutar el frontend, sigue estos pasos:
 
 De esta forma ya tendras la aplicacion ejecutandose, solo debes acceder a la URL que por defecto es http://localhost:5173/:
 
-
 <br/>
 <br/>
 
 ## `Backend`
 ## Pre-Requisitos
   - Tener instalado .NET Core SDK en tu sistema.
-  - Tener Visual Studio o Visual Studio Code Instalado
 
 ### Ejecución
 Para ejecutar el backend, sigue estos pasos:
@@ -42,20 +40,24 @@ Para ejecutar el backend, sigue estos pasos:
    ```bash
      Abre el archivo `EventLogsManager.sln` Este archivo te abrirá la solucion del proyecto en VISUAL STUDIO
 
-2. Ejecuta la aplicacion :
+2. Migrar la base de datos :
    ```bash
-     Inicia la depuracion dandole a F5 o ejecuta el proyecto manualmente en la consola con el comando `dotnet run`
+     Abre la consola de nugget y ejecuta el comando `update-database`. Este comando te creará la base de datos.
 
 ### Pasos para VS CODE:
-1. Ve a la carpeta `EventLogsManager` :
+1. Ve a la carpeta `EventLogsManager` abre la terminal y ejecuta los siguientes comandos.:
    ```bash
-     Abre la carpeta `EventLogsManager` que contiene los archivos de la API.
+     cd EventLogsManager
 
-2. Ejecuta la aplicacion :
+2. Migrar la base de datos :
    ```bash
-     Abre la consola y ejecuta el comando `dotnet run`
+     Ejecuta el comando `dotnet ef database update`. Este comando te creará la base de datos.
+     
+3. Migrar la base de datos :
+   ```bash
+     Ejecuta el comando `dotnet run`. La aplicacion empezará a ejecutarse.
 
-La aplicacion deberia ejecutarse y ya podrias probar la API desde swagger o POSTMAN http://localhost:5184/api/eventlogs.
+La aplicacion deberia ejecutarse y ya podrias probar la API.
 
 <br/>
 <br/>
