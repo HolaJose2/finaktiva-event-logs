@@ -19,6 +19,7 @@ namespace EventLogsManager.Controllers
             _context = context;
         }
 
+        //Listamos todos los eventos, y los devolvemos
         [HttpGet]
         public async Task<ActionResult<List<EventLogs>>> Get()
         {
@@ -30,6 +31,7 @@ namespace EventLogsManager.Controllers
         {
             try
             {
+                //Validamos si la fecha de creacion está vacia, le asigne la del sistema.
                 if (eventLog.Created == null || eventLog.Created == DateTime.MinValue)
                 {
                     eventLog.Created = DateTime.UtcNow;
