@@ -105,17 +105,18 @@ export function EventList() {
             </tr>
           </thead>
           <tbody>
-            {filteredEvents.map((event) => {
-              const formatedDate = FormatDate(event.created);
-              return (
-                <tr key={event.id}>
-                  <td>{event.id}</td>
-                  <td>{event.description}</td>
-                  <td>{formatedDate}</td>
-                  <td>{event.eventType}</td>
-                </tr>
-              );
-            })}
+            {events.length > 0 ?
+              filteredEvents.map((event) => {
+                const formatedDate = FormatDate(event.created);
+                return (
+                  <tr key={event.id}>
+                    <td>{event.id}</td>
+                    <td>{event.description}</td>
+                    <td>{formatedDate}</td>
+                    <td>{event.eventType}</td>
+                  </tr>
+                );
+              }):<p>No hay elementos</p>}
           </tbody>
         </table>
       </div>
