@@ -43,6 +43,7 @@ En caso de que se ejecute en un puerto diferente, debes ir hasta el final de est
 ### `Backend`
 ### Pre-Requisitos
   - Tener instalado .NET Core SDK en tu sistema.
+  - Tener instalado SQL server
 
 ### Ejecución
 Para ejecutar el backend, sigue estos pasos:
